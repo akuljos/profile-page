@@ -1,0 +1,12 @@
+.social-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.image-icon {
+    width: 5%;
+    margin-left: auto;
+    margin-right:auto;
+}
