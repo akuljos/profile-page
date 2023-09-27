@@ -19,9 +19,6 @@ function Menu() {
         <div>
             <input className="menu-button" type="button" value="Projects" onClick={() => routeChange("/projects")} />
         </div>
-        <div>
-            <input className="menu-button" type="button" value="Contact" onClick={() => routeChange("/contact")} />
-        </div>
     </div>
   );
 }

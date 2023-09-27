@@ -1,8 +1,8 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 
-import Menu from './components/Menu.js';
-import Contact from './components/Contact.js';
+import Experience from './components/Experience.js';
+import Projects from './components/Projects.js';
 import Home from './components/Home.js';
 
 function App() {
@@ -10,9 +10,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={ <Home /> } />
-        <Route path="/experience" element={ <Menu /> } />
-        <Route path="/projects" element={ <Menu /> } />
-        <Route path="/contact" element={ <Contact /> } />
+        <Route path="/experience" element={ <Experience /> } />
+        <Route path="/projects" element={ <Projects /> } />
       </Routes>
     </div>
   );
