@@ -7,6 +7,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 
 import profile_pic from './static/profile-pic.jpg';
+import gmail_logo from './static/gmail-logo.png'
+import linkedin_logo from './static/linkedin-logo.png';
+import github_logo from './static/github-logo.png';
+
 
 function App() {
   return(
@@ -25,33 +29,34 @@ function App() {
             </Container>
           </Navbar>
 
-        <div id="home">
-          <br />
-        </div>
-
-        <div className="profile-section">
+        <div id="home" className="profile-section">
           <div className="pic-display">
             <img src={profile_pic} alt="Profile Picture" className="profile-pic" />
             <div className="text-column">
               <h3>Akul Joshi</h3>
-              <hr class="contact-line"></hr>
-              <p>Phone Number: (847) 289-1620</p>
-              <p>Email: joshi.akul@gmail.com</p>
-              <p>Linkedin: <a href="http://linkedin.com/in/akul-joshi" target="_blank" rel="noopener noreferrer">Akul Joshi</a></p>
-              <p>Github: <a href="https://github.com/akuljos" target="_blank" rel="noopener noreferrer">akuljos</a></p>
+              <hr className="contact-line"></hr>
+              <div className="contact-bar">
+                <div id="email">
+                  <a href="mailto:joshi.akul@gmail.com" target="_blank" rel="noopener noreferrer"><img className="icon" src={gmail_logo} alt="Email" /></a>
+                </div>
+                <div id="linkedin">
+                  <a href="http://linkedin.com/in/akul-joshi" target="_blank" rel="noopener noreferrer"><img className="icon" src={linkedin_logo} alt="Linkedin" /></a>
+                </div>
+                <div id="github">
+                  <a href="https://github.com/akuljos" target="_blank" rel="noopener noreferrer"><img className="icon" src={github_logo} alt="Github" /></a>
+                </div>
+              </div>
             </div>
+            <div className="seeking">
+                <strong>Seeking Software Developer and Machine Learning Engineer Roles!</strong>
+              </div>
           </div>
           <h3 className="about-me">About Me</h3>
           <hr></hr>
         </div>
 
-        <div id="education">
-          <br />
-          <br />
-          <br />
-        </div>
 
-        <div className="profile-section">
+        <div id="education" className="profile-section">
           <h3>Education</h3>
           <hr></hr>
           <p>
@@ -67,13 +72,7 @@ Duis in nibh sed massa dictum interdum. Morbi laoreet vel lacus eget hendrerit. 
           </p>
         </div>
 
-        <div id="experience">
-          <br />
-          <br />
-          <br />
-        </div>
-
-        <div className="profile-section">
+        <div id="experience" className="profile-section">
           <h3>Experience</h3>
           <hr></hr>
           <p>
