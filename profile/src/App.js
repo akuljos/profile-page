@@ -47,12 +47,26 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="seeking">
-                <strong>Seeking Software Developer and Machine Learning Engineer Roles!</strong>
-              </div>
           </div>
           <h3 className="about-me">About Me</h3>
           <hr></hr>
+          <p>Hello and welcome to my page! I am a Master in Computer Science graduate from the 
+            University of Illinois Urbana-Champaign whose passions lie in exploring state-of-the-art
+            machine learning research and developing innovative and impactful solutions through technology.</p> 
+
+          <p>Through my internship experiences, I gained hands-on experience as a Software Development
+             Engineer Intern at Amazon, where I spearheaded the development of a dashboard to track and
+            visualize rate predictions for worldwide package fulfillment centers as well as optimized 
+            a machine learning model that predicted the efficiency of associates in those fulfillment 
+            centers, saving the company millions of dollars annually. I also built a streamlined 
+            pipeline for multi-billion-dollar clients to set up their IBM Cloud solutions and led a
+            team of my fellow interns in designing the architecture for a crowdsourced recycling application
+            as part of an internal sustainability hackathon as a Cloud Solutions Developer Intern at IBM.</p> 
+
+          <p>I am actively seeking full-time roles as a machine learning engineer or a software developer
+             where I can apply my expertise in AI/ML and cloud to build innovative solutions for positive
+             social change. I am eager to learn from and collaborate with diverse and talented teams and
+             contribute to advancing cutting-edge technology.</p>
         </div>
 
 
