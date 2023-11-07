@@ -3,15 +3,32 @@
     position: fixed;
     width: 100%;
     top: 0;
+    height: 75px;
 }
 
 .navbar-button-container {
-    margin-left: 15px;
-    text-align: center;
+    width: 100%;
+}
+
+.navbar-link {
+    text-decoration: none;
+    position: relative;
+    top: 30%;
+    left: 0%;
+}
+
+#home-button {
+    width: 10%;
 }
 
 .navbar-button {
-    text-decoration: none;
+    margin-left: 15px;
+    float: left;
+    width: 7%;
+    height: 75px;
+    text-align: center;
+    margin-top: -8px;
+    align-items: center;
 }
 
 .navbar-button:hover {

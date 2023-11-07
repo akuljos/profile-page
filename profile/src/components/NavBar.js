@@ -5,19 +5,23 @@ function NavBar() {
     return(
         <div class="navbar">
             <div class="navbar-button-container">
-                    <a class="navbar-button" href="#home">
+                <div class="navbar-button" id="home-button">
+                    <a class="navbar-link" href="#home">
                         <h4 class="navbar-button-text">Akul Joshi</h4>
                     </a>
-                    <a class="navbar-button" href="#education">
+                </div>
+                <div class="navbar-button">  
+                    <a class="navbar-link" href="#education">
                         <p class="navbar-button-text">Education</p>
                     </a>
-                <div>
-                    <a class="navbar-button" href="#experience">
+                </div>
+                <div class="navbar-button">
+                    <a class="navbar-link" href="#experience">
                         <p class="navbar-button-text">Experience</p>
                     </a>
                 </div>
-                <div>
-                    <a class="navbar-button" href="#projects">
+                <div class="navbar-button">
+                    <a class="navbar-link" href="#projects">
                         <p class="navbar-button-text">Projects</p>
                     </a>
                 </div>
