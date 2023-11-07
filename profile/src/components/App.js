@@ -7,29 +7,28 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 
 import Contact from './Contact.js';
-
-import profile_pic from './static/profile-pic.jpg';
-import gmail_logo from './static/gmail-logo.png'
-import linkedin_logo from './static/linkedin-logo.png';
-import github_logo from './static/github-logo.png';
-
+import NavBar from './NavBar.js';
 
 function App() {
   return(
       <div>
-          <Navbar fixed="top" expand="lg" className="bg-success-subtle">
-            <Container>
-              <Navbar.Brand href="#home">Akul Joshi</Navbar.Brand>
-              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-              <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="me-auto">
-                  <Nav.Link href="#education">Education</Nav.Link>
-                  <Nav.Link href="#experience">Experience</Nav.Link>
-                  <Nav.Link href="#projects">Projects</Nav.Link>
-                </Nav>
-              </Navbar.Collapse>
-            </Container>
-          </Navbar>
+        {/* <Navbar fixed="top" expand="lg" className="bg-success-subtle">
+          <Container>
+            <Navbar.Brand href="#home">Akul Joshi</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="me-auto">
+                <Nav.Link href="#education">Education</Nav.Link>
+                <Nav.Link href="#experience">Experience</Nav.Link>
+                <Nav.Link href="#projects">Projects</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar> */}
+
+          <div>
+            <NavBar />
+          </div>
 
           <div id="home" className="profile-section">
             <Contact />

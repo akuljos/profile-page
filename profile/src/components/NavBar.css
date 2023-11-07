@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #b6ccb6;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar-button-container {
+    margin-left: 15px;
+    text-align: center;
+}
+
+.navbar-button {
+    text-decoration: none;
+}
+
+.navbar-button:hover {
+    background-color: #697869;
+}
+
+.navbar-button-text {
+    color: black;
+}
+
