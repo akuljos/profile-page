@@ -6,6 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 
+import Contact from './Contact.js';
+
 import profile_pic from './static/profile-pic.jpg';
 import gmail_logo from './static/gmail-logo.png'
 import linkedin_logo from './static/linkedin-logo.png';
@@ -14,7 +16,7 @@ import github_logo from './static/github-logo.png';
 
 function App() {
   return(
-      <div className="App">
+      <div>
           <Navbar fixed="top" expand="lg" className="bg-success-subtle">
             <Container>
               <Navbar.Brand href="#home">Akul Joshi</Navbar.Brand>
@@ -29,28 +31,15 @@ function App() {
             </Container>
           </Navbar>
 
-        <div id="home" className="profile-section">
-          <div className="pic-display">
-            <img src={profile_pic} alt="Profile Picture" className="profile-pic" />
-            <div className="text-column">
-              <h3>Akul Joshi</h3>
-              <hr className="contact-line"></hr>
-              <div className="contact-bar">
-                <div id="email">
-                  <a href="mailto:joshi.akul@gmail.com" target="_blank" rel="noopener noreferrer"><img className="icon" src={gmail_logo} alt="Email" /></a>
-                </div>
-                <div id="linkedin">
-                  <a href="http://linkedin.com/in/akul-joshi" target="_blank" rel="noopener noreferrer"><img className="icon" src={linkedin_logo} alt="Linkedin" /></a>
-                </div>
-                <div id="github">
-                  <a href="https://github.com/akuljos" target="_blank" rel="noopener noreferrer"><img className="icon" src={github_logo} alt="Github" /></a>
-                </div>
-              </div>
-            </div>
+          <div id="home" className="profile-section">
+            <Contact />
           </div>
+          
+          
+          <div className="profile-section">
           <h3 className="about-me">About Me</h3>
           <hr></hr>
-          <p>Hello and welcome to my page! I am a Master in Computer Science graduate from the 
+          <p>Hello and welcome to my page! I am a Master of Computer Science graduate from the 
             University of Illinois Urbana-Champaign whose passions lie in exploring state-of-the-art
             machine learning research and developing innovative and impactful solutions through technology.</p> 
 
