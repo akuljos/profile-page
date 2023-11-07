@@ -13,5 +13,5 @@ code {
 }
 
 html {
-  overflow: hidden;
+  scroll-padding-top: 10%;
 }
